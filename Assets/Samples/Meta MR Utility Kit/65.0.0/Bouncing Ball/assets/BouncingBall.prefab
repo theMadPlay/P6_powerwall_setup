@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 413594912}
   - component: {fileID: 413594911}
   - component: {fileID: 705817834}
+  - component: {fileID: 5354802727329624400}
   m_Layer: 0
   m_Name: BouncingBall
   m_TagString: Untagged
@@ -249,3 +250,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5354802727329624400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3931749881970468426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad96a231bbda224ab1efc7da1bdcc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 5e8f634942a968b42b3ea3bf2bb3efc2, type: 2}
+  - {fileID: 2100000, guid: a41cdc6974bd5634b9da7b2f4463f12d, type: 2}
+  - {fileID: 2100000, guid: 9bc9f8e6209a7a843b9bf0918dc37ce9, type: 2}
+  - {fileID: 2100000, guid: 1dc86bf32fe58004184d86734badf549, type: 2}
+  - {fileID: 2100000, guid: d757212bccdc73a43b950282afe3c073, type: 2}
+  textField: {fileID: 0}
